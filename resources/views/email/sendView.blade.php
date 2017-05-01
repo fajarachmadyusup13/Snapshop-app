@@ -1,0 +1,1 @@
+Untuk Mengaktivasi email <a href="{{ route('sendEmailDone', ["Email" => $user->email, "verifyToken" => $user->verifyToken]) }}"> klik disini </a>
